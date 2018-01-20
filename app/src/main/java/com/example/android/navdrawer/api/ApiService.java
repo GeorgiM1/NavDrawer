@@ -16,8 +16,12 @@ import retrofit2.http.Query;
  */
 
 public interface ApiService {
+
     @GET("photos?"+ApiConstants.ConsumerKey)
     Call<PhotoModel> getPhotos(@Query("feature") String featureString);
+
+    @GET("photos/search?"+ApiConstants.ConsumerKey)
+    Call<PhotoModel> getSearchPhotos(@Query("term") String term);
 
     @FormUrlEncoded
     @POST("photos")

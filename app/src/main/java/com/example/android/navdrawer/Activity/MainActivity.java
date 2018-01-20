@@ -60,6 +60,7 @@ public class MainActivity extends AppCompatActivity
         pager.setAdapter(adapter);
 
 
+
         strings =(String[]) getResources().getStringArray(R.array.drawer_items);
 
 

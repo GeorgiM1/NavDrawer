@@ -5,5 +5,5 @@ package com.example.android.navdrawer.api;
  */
 
 public class ApiConstants {
-    public static final String ConsumerKey = "xHkW9aeTnoYk4k1lUYicCjbKY9VXjYOWxE3OsBt8";
+    public static final String ConsumerKey = "consumer_key=xHkW9aeTnoYk4k1lUYicCjbKY9VXjYOWxE3OsBt8";
 }

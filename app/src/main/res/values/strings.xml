@@ -25,6 +25,10 @@
     <string name="drawer_other">Other</string>
     <string name="drawer_about_us">About Us</string>
     <string name="drawer_privacy_policy">Privacy Policy</string>
+    <string name="check_internet_title">No internet connection</string>
+    <string name="check_internet_message">There is no internet connection</string>
+    <string name="check_internet_settings">retry</string>
+    <string name="check_internet_cancel">cancel</string>
 
 
 </resources>
